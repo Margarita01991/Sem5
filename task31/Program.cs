@@ -4,7 +4,7 @@ Console.Clear();
 int[] array = new int[12]; // можно менять количество элементов
 int sumPositive = 0;
 int sumNegative = 0;
-Random rand = new Random();
+Random rand = new Random();// int a = new Random()Next(-9, 10) - то же самое, но Random rand  нужен, чтобы можно было заполнять несколько раз
 for(int i = 0; i < array.Length; i++)
 {
     array[i] = rand.Next(-9, 10);
