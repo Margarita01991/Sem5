@@ -15,7 +15,7 @@
 // {
 //     if(array[i]> 0)
 //     {
-//         sumPositive+= array[i];
+//         sumPositive+= array[i]; / эквивалентно 
 //     }
 //     else
 //     {
