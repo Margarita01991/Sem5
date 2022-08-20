@@ -9,7 +9,7 @@ for(int i = 0; i < array.Length; i++)
 Console.WriteLine('['+string.Join(", ", array) + ']');
 for(int i = 0; i < array.Length; i++)
 {
-    array[i] = array[i] * -1;
+    array[i] = -array[i]; //*-1
     // if(array[i] != 0)
     // {
     //     array[i] = array[i] * -1;
